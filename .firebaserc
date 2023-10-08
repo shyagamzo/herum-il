@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "herum-il": {
+      "hosting": {
+        "herum-il": [
+          "herum-il"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "herum-il"
+  }
+}
