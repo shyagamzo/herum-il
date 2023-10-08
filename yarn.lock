@@ -1336,6 +1336,22 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@bespunky/angular-google-maps@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@bespunky/angular-google-maps/-/angular-google-maps-0.20.0.tgz#7da242e4bb62cc590bc1d5d447a22540d1814a7c"
+  integrity sha512-jQfqVxVfAeXqjXCeZn3hPKOVm4ejFjavofsAaK7vhptv+rtUHcDM1PEXBw6VVrwuArPK0VggOEvX2NMbDZ6uSw==
+  dependencies:
+    "@types/google-maps" "^3.2.1"
+    reflect-metadata "^0.1.13"
+    tslib "^2.0.0"
+
+"@bespunky/angular-zen@^14.0.0-preview.2":
+  version "14.0.0-preview.2"
+  resolved "https://registry.yarnpkg.com/@bespunky/angular-zen/-/angular-zen-14.0.0-preview.2.tgz#05327f64f15631b42965263ea743bf8657d78b3a"
+  integrity sha512-JIkgoVzNr9TnrMMfrQj7x6heXSwDA10RXUCkU1tlv1Qu3U+zKjXHTqTyBxupD9Rxb2Ddw2LB8iXyoIisLIT/MQ==
+  dependencies:
+    tslib "^2.3.0"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
@@ -3160,6 +3176,18 @@
     "@types/express-serve-static-core" "^4.17.33"
     "@types/qs" "*"
     "@types/serve-static" "*"
+
+"@types/google-maps@^3.2.1":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@types/google-maps/-/google-maps-3.2.3.tgz#ea99526e40d3b58a2c07f0b3d5f3b8e0750119c3"
+  integrity sha512-+GR/7sMvo2bENS26H4t2QqoCqE4FE5qhsG8aaDM9mJAlsorkLyaFdTQra8VkmS1RNE09fx9c1kac+GKG0RtA2A==
+  dependencies:
+    "@types/google.maps" "*"
+
+"@types/google.maps@*":
+  version "3.54.3"
+  resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.54.3.tgz#f9ba8f38f6ae3ec383b9a592637e67e4e9f28fc9"
+  integrity sha512-Civz4GMtuzGQbic9J9OSpzNHaVA+YxwvBPfB98GXa2YwH/6Zb99+PPSqKQVniHIB4hOzPl46hmZiFpsckHkGIQ==
 
 "@types/http-errors@*":
   version "2.0.2"
@@ -7028,7 +7056,7 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-reflect-metadata@^0.1.2:
+reflect-metadata@^0.1.13, reflect-metadata@^0.1.2:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
